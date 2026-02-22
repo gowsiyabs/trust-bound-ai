@@ -1,0 +1,29 @@
+# Safety Layer Configuration
+
+enable_input_validation: true
+enable_output_filtering: true
+enable_pii_detection: true
+
+# Detection thresholds
+jailbreak_threshold: 0.7
+hallucination_threshold: 0.8
+max_query_length: 2000
+
+# Jailbreak detection patterns
+jailbreak_patterns:
+  - "ignore previous instructions"
+  - "ignore all instructions"
+  - "ignore the above"
+  - "pretend you're"
+  - "pretend you are"
+  - "act as if"
+  - "you are now"
+  - "disregard"
+  - "forget everything"
+  - "forget all"
+  - "roleplay"
+  - "hypothetically"
+  - "what if you were"
+  - "simulate"
+  - "override"
+  - "bypass"
