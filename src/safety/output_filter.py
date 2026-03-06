@@ -14,10 +14,9 @@ logger = get_logger(__name__)
 class OutputFilter:
     """Filters LLM output for safety."""
 
-    # LOCATION appears frequently in legitimate public company disclosures
-    # (e.g., principal executive office address in SEC filings).
+    # LOCATION and PERSON are excluded: both appear routinely in legitimate
+    # public-company disclosures (registered addresses, executive names).
     BLOCKED_PII_TYPES = {
-        "PERSON",
         "EMAIL_ADDRESS",
         "PHONE_NUMBER",
         "US_SSN",

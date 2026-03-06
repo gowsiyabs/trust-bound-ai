@@ -19,6 +19,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.claude-cache/
+.claude/
 
 # Virtual Environment
 .venv/
