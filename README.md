@@ -378,16 +378,6 @@ flowchart TD
 
 ---
 
-## Roadmap
-
-This repository implements Phase 1 (RAG security). Planned phases:
-
-- **Phase 1: RAG systems** *(current)* -- retrieval trust boundaries, indirect injection, context poisoning, permission mistakes.
-- **Phase 2: Audio systems** -- adversarial audio, voice impersonation, transcription errors that trigger downstream actions, privacy leakage.
-- **Phase 3: Image/Video systems** -- provenance verification, deepfake misuse, disallowed content detection, watermarking.
-- **Phase 4: Multimodal agents** -- cross-modal tool-trigger risk, unintended transactions, permissions abuse in agentic workflows.
-
----
 
 ## License
 
